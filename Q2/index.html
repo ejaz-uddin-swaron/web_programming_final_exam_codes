@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <form action="hotel.php" method="POST">
+        Room Type: <select name="room_type">
+            <option value="standard">Standard</option>
+            <option value="deluxe">Deluxe</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+        Weekday Nights: <input type="number" name="weekday_nights" placeholder="Number of weekday nights"><br><br>
+        Weekend Nights: <input type="number" name="weekdend_nights" placeholder="Number of weekend nights"><br><br>
+        Number of Guests: <input type="number" name="guests" placeholder="Number of guests"><br><br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
